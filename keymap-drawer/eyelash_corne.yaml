@@ -14,11 +14,11 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
+  - ':'
   - '&td0'
-  - A
-  - S
-  - D
-  - F
+  - '&td1'
+  - '&td2'
+  - '&td3'
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
