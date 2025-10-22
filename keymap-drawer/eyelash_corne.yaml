@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - MOVE UP
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - '&td2'
   - '&td3'
   - G
-  - MOVE LEFT
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - MOVE RIGHT
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - V
   - B
   - $$mdi:volume-off$$
-  - MVOE DOWN
+  - '&mmv MVOE_DOWN'
   - N
   - M
   - {t: ',', s: <}
