@@ -15,11 +15,11 @@ layers:
   - P
   - $$mdi:apple-keyboard-command$$
   - ':'
-  - '&td0'
-  - '&td1'
-  - '&td2'
-  - '&td3'
-  - G
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: G, h: Meh+LGUI}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
