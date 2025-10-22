@@ -249,5 +249,5 @@ combos:
 - p: [23, 24]
   k: $$mdi:backspace-reverse-outline$$
   l: [Base]
-- p: [1, 15, 29]
+- p: [1, 2, 3]
   k: '&soft_off'
