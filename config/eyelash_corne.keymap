@@ -15,7 +15,6 @@
 #define FUNCTION 2
 #define NUMBERS 3
 #define MEDIA 4
-#define GAMING 5
 
 &mt {
         tapping-term-ms = <300>;
@@ -43,7 +42,6 @@
     behaviors {
         qt: mod-tap {
                 compatible = "zmk,behavior-hold-tap";
-                label = "GLOBAL_QUICK_TAP";
                 #binding-cells = <2>;
                 flavor = "tap-preferred";
                 tapping-term-ms = <250>;
