@@ -10,11 +10,6 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
-#define HYP LS(LC(LA(LGUI)))
-#define HYPER(key) LS(LC(LA(LG(key))))
-#define MEH LS(LC(LALT))
-#define MEH_W(key) LS(LC(LA(key)))
-
 #define BASE 0
 #define SYMBOLS 1
 #define FUNCTION 2
@@ -46,7 +41,7 @@
 
 / {
     behaviors {
-        gqt: mod-tap {
+        qt: mod-tap {
                 compatible = "zmk,behavior-hold-tap";
                 label = "GLOBAL_QUICK_TAP";
                 #binding-cells = <2>;
@@ -113,9 +108,9 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q        &kp W        &kp E       &kp R       &kp T                          &mmv MOVE_UP                   &kp Y        &kp U  &kp I      &kp O    &kp P     &kp RCMD
-&kp COLON  &gqt LCTRL A &gqt LSHFT S &gqt LALT D &gqt LCMD F &gqt HYP G      &mmv MOVE_LEFT &mkp LCLK      &mmv MOVE_RIGHT &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X &kp C        &kp V       &kp B       &kp C_MUTE                     &mmv MOVE_DOWN                 &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
+&kp TAB    &kp Q        &kp W        &kp E       &kp R       &kp T                      &mmv MOVE_UP                   &kp Y        &kp U  &kp I      &kp O    &kp P     &kp RCMD
+&kp COLON  &qt LCTRL A  &qt  LSHFT S &qt LALT D  &qt LCMD F  &kp G       &mmv MOVE_LEFT &mkp LCLK      &mmv MOVE_RIGHT &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X &kp C        &kp V       &kp B       &kp C_MUTE                 &mmv MOVE_DOWN                 &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
                                      &mo 4       &lt 1 ESC   &kp SPACE                                                     &lt 3 ENTER  &mo 2  &kp RALT
             >;
 
