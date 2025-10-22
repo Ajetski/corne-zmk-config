@@ -18,7 +18,7 @@ layers:
   - A
   - S
   - D
-  - '&p F'
+  - F
   - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
