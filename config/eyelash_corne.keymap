@@ -129,6 +129,9 @@
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
+            sensor-bindings = <&scroll_encoder>;
+        };
+
         number {
             display-name = "Nums";
             bindings = <
@@ -142,8 +145,6 @@
         };
 
 
-            sensor-bindings = <&scroll_encoder>;
-        };
 
         function {
             display-name = "Fn";
