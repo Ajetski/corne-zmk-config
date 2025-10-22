@@ -40,15 +40,6 @@
 
 / {
     behaviors {
-        qt: mod-tap {
-                compatible = "zmk,behavior-hold-tap";
-                #binding-cells = <2>;
-                flavor = "tap-preferred";
-                tapping-term-ms = <250>;
-                quick-tap-ms = <200>;
-                global-quick-tap;
-                bindings = <&kp>, <&kp>;
-        };
     };
 
     rgb_encoder: rgb_encoder {
