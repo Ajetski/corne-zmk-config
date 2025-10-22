@@ -73,6 +73,13 @@
     combos {
         compatible = "zmk,combos";
 
+        combo_del {
+            timeout-ms = <50>;
+            key-positions = <26 27>;
+            bindings = <&kp DEL>;
+            layers = <0>;
+        };
+
         softoff {
             bindings = <&soft_off>;
             key-positions = <1 15 29>;
@@ -88,7 +95,7 @@
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp COLON  &td0   &td1   &td2      &td3   &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
+                        &mo 4  &lt 1 ESC  &kp SPACE                          &lt 3 ENTER  &mo 2  &kp RALT
             >;
 
              sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
