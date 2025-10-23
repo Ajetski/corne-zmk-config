@@ -36,7 +36,7 @@
     trigger-period-ms = <16>;
 };
 
-&soft_off { hold-time-ms = <3000>; };
+&soft_off { hold-time-ms = <1500>; };
 
 / {
     behaviors {
