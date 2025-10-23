@@ -40,15 +40,14 @@
 
 / {
     behaviors {
-        gqt: mod-tap {
-                compatible = "zmk,behavior-hold-tap";
-                label = "GLOBAL_QUICK_TAP";
-                #binding-cells = <2>;
-                flavor = "tap-preferred";
-                tapping-term-ms = <250>;
-                quick-tap-ms = <200>;
-                global-quick-tap;
-                bindings = <&kp>, <&kp>;
+        qt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <250>;
+            quick-tap-ms = <200>;
+            bindings = <&kp>, <&kp>;
+            display-name = "Mod-Tap";
         };
     };
 
@@ -108,7 +107,7 @@
             display-name = "Base";
             bindings = <
 &kp TAB    &kp Q        &kp W        &kp E       &kp R       &kp T                      &mmv MOVE_UP                   &kp Y  &kp U  &kp I      &kp O    &kp P     &kp RCMD
-&kp COLON  &mt LCTRL A  &mt LSHFT S  &mt LALT D  &mt LCMD F  &kp G       &mmv MOVE_LEFT &mkp LCLK      &mmv MOVE_RIGHT &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp COLON  &qt LCTRL A  &qt LSHFT S  &mt LALT D  &mt LCMD F  &kp G       &mmv MOVE_LEFT &mkp LCLK      &mmv MOVE_RIGHT &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X &kp C        &kp V       &kp B       &kp C_MUTE                 &mmv MOVE_DOWN                 &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
                                      &mo MEDIA   &lt FUNCTION ESC   &kp SPACE                                          &mo SYMBOLS &mo NUMBERS  &kp RALT
             >;
