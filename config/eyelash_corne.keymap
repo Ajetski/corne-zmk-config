@@ -106,10 +106,10 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q        &kp W        &kp E       &kp R       &kp T                      &mmv MOVE_UP                   &kp Y  &kp U  &kp I      &kp O    &kp P     &kp RCMD
-&kp COLON  &qt LCTRL A  &qt LSHFT S  &qt LALT D  &qt LCMD F  &kp G       &mmv MOVE_LEFT &mkp LCLK      &mmv MOVE_RIGHT &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X &kp C        &kp V       &kp B       &kp C_MUTE                 &mmv MOVE_DOWN                 &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
-                                     &mo MEDIA   &lt FUNCTION ESC   &kp SPACE                                          &mo SYMBOLS &mo NUMBERS  &kp RALT
+&kp TAB    &kp Q        &kp W        &kp E       &kp R       &kp T                      &mmv MOVE_UP                   &kp Y  &kp U  &kp I      &kp O    &kp P           &kp RCMD
+&kp COLON  &qt LCTRL A  &qt LSHFT S  &qt LALT D  &qt LCMD F  &kp G       &mmv MOVE_LEFT &mkp LCLK      &mmv MOVE_RIGHT &kp H  &kp J  &kp K      &kp L    &qt RSHFT SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X &kp C        &kp V       &kp B       &kp C_MUTE                 &mmv MOVE_DOWN                 &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH        &kp RCTRL
+                                     &mo MEDIA   &lt FUNCTION ESC   &kp SPACE                                          &mo SYMBOLS &lt NUMBERS LC(SPACE) &kp RALT
             >;
 
              sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
