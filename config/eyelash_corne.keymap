@@ -131,9 +131,9 @@
         function {
             display-name = "Fn";
             bindings = <
-&none &kp F1 &kp F2 &kp F3 &kp F4   &kp F5                                 &trans          &kp F6   &kp F7     &kp F8     &kp F9     &kp F10 &none
-&none &none  &mkp RCLK      &mmv MOVE_UP &mkp LCLK   &kp F10          &trans &trans  &trans  &kp LEFT &kp DOWN   &kp UP     &kp RIGHT  &none   &none
-&none &none  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp F11  &none          &trans           &none   &kp PG_DN  &kp PG_UP  &none      &none   &none
+&none &kp F1 &kp F2         &kp F3         &kp F4          &kp F5                  &trans          &kp F6   &kp F7     &kp F8     &kp F9     &kp F10 &none
+&none &none  &mkp RCLK      &mmv MOVE_UP   &mkp LCLK       &kp F11          &trans &trans  &trans  &kp LEFT &kp DOWN   &kp UP     &kp RIGHT  &none   &none
+&none &none  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp F12  &none          &trans          &none    &kp PG_DN  &kp PG_UP  &none      &none   &none
                     &trans &trans &trans                                   &mkp LCLK &mkp RCLK &trans
             >;
 
